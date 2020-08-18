@@ -3782,12 +3782,33 @@ a:focus {
 a img {
   border: 0;
 }
+.hr00 {
+  clear: both;
+  max-width: 75rem;
+  height: 0;
+  margin: 1.4rem auto;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0px solid #cacaca;
+  border-left: 0;
 
+}
+.hr01 {
+  clear: both;
+  max-width: 75rem;
+  height: 0;
+  margin: 1.4rem auto;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #cacaca;
+  border-left: 0;
+
+}
 hr {
   clear: both;
   max-width: 75rem;
   height: 0;
-  margin: 1.25rem auto;
+  margin: 0rem auto;
   border-top: 0;
   border-right: 0;
   border-bottom: 1px solid #cacaca;
