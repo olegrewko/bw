@@ -103,7 +103,7 @@ p, li {
 }
 
 .pr {
-    padding-right: 1 rem;
+    padding-left: 2 rem;
 }
 .grey10rem {
     /* font-family: 'Montserrat'; */
@@ -121,10 +121,10 @@ p, li {
     line-height: 1.1;
 }
 .grey5rem {
-    /* font-family: 'Montserrat'; */
-    color: #191D27;
+    font-family: 'Roboto Condensed';
+    color: lightgray;
     font-weight: 400;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 1.1;
 
 }
@@ -286,7 +286,7 @@ a:hover {
     height: 4rem;
 }
 .dummy18 {
-    height: 6rem;
+    height: 8rem;
 }
 
 .dummy02 {
