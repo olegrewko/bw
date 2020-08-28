@@ -13,7 +13,8 @@ div {
 
 body {
 
-    
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 0.7rem;
@@ -23,8 +24,8 @@ body {
 
 p, li {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 0.7rem;
+    font-weight: 500;
+    font-size: 0.75rem;
 
 }
 .card1 {
@@ -105,26 +106,83 @@ p, li {
 .pr {
     padding-left: 1 rem;
 }
-.grey10rem {
-    /* font-family: 'Montserrat'; */
+.grey01rem {
+    font-family: 'Montserrat';
     color: #191D27;
-    font-weight: 700;
-    font-size: 10rem;
+    font-weight: 100;
+    font-size: 7rem;
     line-height: 0.9;
 }
-
+.grey02rem {
+    font-family: 'Montserrat';
+    color: #191D27;
+    font-weight: 200;
+    font-size: 7rem;
+    line-height: 0.9; 
+}
+.grey03rem {
+    font-family: 'Montserrat';
+    color: #191D27;
+    font-weight: 300;
+    font-size: 7rem;
+    line-height: 0.9;
+}
+.grey04rem {
+    font-family: 'Montserrat';
+    color: #191D27;
+    font-weight: 400;
+    font-size: 7rem;
+    line-height: 0.9; 
+}
+.grey04remitalic {
+    font-family: 'Montserrat';
+    font-style: italic;
+    color: #191D27;
+    font-weight: 500;
+    font-size: 7rem;
+    line-height: 0.9; 
+}
+.grey05rem {
+    font-family: 'Montserrat';
+    color: #191D27;
+    font-weight: 600;
+    font-size: 7rem;
+    line-height: 0.9;
+}
+.grey06rem {
+    font-family: 'Montserrat';
+    color: #191D27;
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 0.9; 
+}
+.grey07rem {
+    font-family: 'Montserrat';
+    color: #191D27;
+    font-weight: 800;
+    font-size: 7rem;
+    line-height: 0.9;
+}
+.grey08rem {
+    font-family: 'Montserrat';
+    color: #191D27;
+    font-weight: 900;
+    font-size: 7rem;
+    line-height: 0.9; 
+}
 .grey6rem {
     /* font-family: 'Montserrat'; */
     color: #191D27;
     font-weight: 600;
-    font-size: 6rem;
+    font-size: 3rem;
     line-height: 1.1;
 }
 .grey5rem {
-    font-family: 'Roboto Condensed';
-    color: lightgray;
+    /* font-family: 'Roboto Condensed'; */
+    font-family: 'Montserrat'; 
+    color: whitesmoke;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.1;
 
 }
@@ -185,7 +243,7 @@ a:hover {
     display: block;
 }
 
-.hr-line { border-top: 0px solid grey; margin-bottom: 0px; margin-top: 0px;color: grey; border-color:  #636e74; }
+.hr-line { border-top: 0px solid grey; margin-bottom: 20px; margin-top: 20px;  border-color:  #; }
 .footer {
     background-color: #191D27;
     padding-top: 20px;
@@ -197,7 +255,7 @@ a:hover {
 }
 
 .black {
-    background-color: #191D27;
+    background-color:black;
     
 }
 
@@ -357,18 +415,21 @@ h4,
 h5
  {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: #1a1b1b;
 
 }
 h6 {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #1a1b1b;
+    font-weight: 400;
+    color: black;
 
 }
-
+.b3rem {
+    font-size: 1.5rem;
+    font-weight: 500; 
+}
 .clb{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -377,10 +438,10 @@ h6 {
 
 
 
-dt {
-    font-weight: 300;
+/* dt {
+    font-weight: 500;
     color: black;
-}
+} */
 
 .grey {
 
