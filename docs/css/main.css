@@ -28,6 +28,13 @@ p, li {
     font-size: 0.75rem;
 
 }
+.rotatable{
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-1800deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    }
 .card1 {
     align-items: flex-end;
     display: -webkit-box;
@@ -110,28 +117,28 @@ p, li {
     font-family: 'Montserrat';
     color: #191D27;
     font-weight: 100;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 0.9;
 }
 .grey02rem {
     font-family: 'Montserrat';
     color: #191D27;
     font-weight: 200;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 0.9; 
 }
 .grey03rem {
     font-family: 'Montserrat';
     color: #191D27;
     font-weight: 300;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 0.9;
 }
 .grey04rem {
     font-family: 'Montserrat';
     color: #191D27;
     font-weight: 400;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 0.9; 
 }
 .grey04remitalic {
@@ -139,35 +146,35 @@ p, li {
     font-style: italic;
     color: #191D27;
     font-weight: 500;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 0.9; 
 }
 .grey05rem {
     font-family: 'Montserrat';
     color: #191D27;
     font-weight: 600;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 0.9;
 }
 .grey06rem {
     font-family: 'Montserrat';
     color: #191D27;
     font-weight: 700;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 0.9; 
 }
 .grey07rem {
     font-family: 'Montserrat';
     color: #191D27;
     font-weight: 800;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 0.9;
 }
 .grey08rem {
     font-family: 'Montserrat';
     color: #191D27;
     font-weight: 900;
-    font-size: 7rem;
+    font-size: 5rem;
     line-height: 0.9; 
 }
 .grey6rem {
@@ -178,13 +185,29 @@ p, li {
     line-height: 1.1;
 }
 .grey5rem {
-    /* font-family: 'Roboto Condensed'; */
-    font-family: 'Montserrat'; 
-    color: whitesmoke;
+    font-family: 'Roboto Condensed';
+    /* font-family: 'Montserrat';  */
+    color: grey;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1.1;
 
+}
+.grey300rem {
+     font-family: 'Roboto Condensed';
+    
+     color: #191D27;
+     font-weight: 300;
+     font-size: 5rem;
+     line-height: 1.1;
+}
+.grey400rem {
+    font-family: 'Roboto Condensed';
+   
+    color: #191D27;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 1.1;
 }
 
 
